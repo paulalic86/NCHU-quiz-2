@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+h1.hidden {
+    visibility: hidden
+}
+</style>
+    <h2>Web Programming</h2>
+    <hr size="1" align="left" noshade width="90%" color="CCCCCC">
+  </head>
+  <body>
+  <div id = "a">
+  Content<br>
+  <ul>
+  <li>HTML
+  <li>CSS
+  <li>DOM
+  <li>JavaScript
+  <li>JSP
+  </ul>
+  </div>
+  <input type="button" value="以JS更改元素內容"  onclick="document.getElementById('a').innerHTML = document.getElementById('b').innerHTML">
+  <input type="button" value="以jQuery更改CSS" onclick="createTable()">
+  <h1 class="hidden">
+  <div id = 'b'>
+  Content<br>
+  <ul>
+  <li>HTML5
+  <li>CSS3
+  <li>DOM
+  <li>JavaScript
+  <li>JSP
+  </ul>
+  
+  </div>
+  </h1>
+  </body>
+</html>
